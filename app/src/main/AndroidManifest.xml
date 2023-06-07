@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.btlonappbanhangonline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BTLonAppBanHangOnline"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.ThongTinActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.LienHeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.ThemSPActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.QuanLiActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.XemDonActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.ThanhToanActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.ResetPassActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.DangNhapActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.DangKiActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.GioHangActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.ChiTietActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.LaptopActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.DienThoaiActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.manager.btlonappbanhangonline.activity.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

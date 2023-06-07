@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ThongTinActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toobar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#87CEFA"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Thông tin" />
+    <EditText
+        android:id="@+id/txtten1"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Đỗ Quang Giáp - 201200102"
+        app:layout_constraintEnd_toEndOf="@+id/toobar"
+        app:layout_constraintStart_toStartOf="@+id/toobar"
+        app:layout_constraintTop_toBottomOf="@+id/toobar" />
+    <EditText
+        android:id="@+id/txtten2"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Nguyễn Văn Tiến - 201200361"
+        app:layout_constraintEnd_toEndOf="@+id/txtten1"
+        app:layout_constraintStart_toStartOf="@+id/txtten1"
+        app:layout_constraintTop_toBottomOf="@+id/txtten1" />
+    <EditText
+        android:id="@+id/txtten3"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Vương Anh Quân - 201205542"
+        app:layout_constraintEnd_toEndOf="@+id/txtten2"
+        app:layout_constraintStart_toStartOf="@+id/txtten2"
+        app:layout_constraintTop_toBottomOf="@+id/txtten2" />
+    <EditText
+        android:id="@+id/txtten4"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Trần Đức Hữu - 201200173"
+        app:layout_constraintEnd_toEndOf="@+id/txtten3"
+        app:layout_constraintStart_toStartOf="@+id/txtten3"
+        app:layout_constraintTop_toBottomOf="@+id/txtten3" />
+    <EditText
+        android:id="@+id/txtten5"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Lê Mạnh Khánh - 201200179"
+        app:layout_constraintEnd_toEndOf="@+id/txtten4"
+        app:layout_constraintStart_toStartOf="@+id/txtten4"
+        app:layout_constraintTop_toBottomOf="@+id/txtten4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
